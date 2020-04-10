@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43AED55124400AA2007E5D9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AED55024400AA2007E5D9E /* AppDelegate.swift */; };
+		43AED55324400AA2007E5D9E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AED55224400AA2007E5D9E /* SceneDelegate.swift */; };
+		43AED55524400AA2007E5D9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AED55424400AA2007E5D9E /* ViewController.swift */; };
+		43AED55824400AA2007E5D9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43AED55624400AA2007E5D9E /* Main.storyboard */; };
+		43AED55A24400AA4007E5D9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43AED55924400AA4007E5D9E /* Assets.xcassets */; };
+		43AED55D24400AA4007E5D9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43AED55B24400AA4007E5D9E /* LaunchScreen.storyboard */; };
+		43AED56C24401A5C007E5D9E /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 43AED56924401A5C007E5D9E /* iCarousel.m */; };
+		43AED57124401C3E007E5D9E /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AED57024401C3E007E5D9E /* CardView.swift */; };
+		43AED57324401CD2007E5D9E /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43AED57224401CD2007E5D9E /* CardView.xib */; };
+		43AED5762440D57C007E5D9E /* UIView+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AED5752440D57C007E5D9E /* UIView+Helpers.swift */; };
+		43AED59124411091007E5D9E /* InvertedTimeMachineCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AED59024411091007E5D9E /* InvertedTimeMachineCarousel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		43AED54D24400AA2007E5D9E /* Swipeable-Cards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swipeable-Cards.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43AED55024400AA2007E5D9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		43AED55224400AA2007E5D9E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		43AED55424400AA2007E5D9E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		43AED55724400AA2007E5D9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43AED55924400AA4007E5D9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43AED55C24400AA4007E5D9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		43AED55E24400AA4007E5D9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43AED56924401A5C007E5D9E /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		43AED56A24401A5C007E5D9E /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		43AED56E24401B14007E5D9E /* Swipeable-Cards-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Swipeable-Cards-Bridging-Header.h"; sourceTree = "<group>"; };
+		43AED57024401C3E007E5D9E /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		43AED57224401CD2007E5D9E /* CardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardView.xib; sourceTree = "<group>"; };
+		43AED5752440D57C007E5D9E /* UIView+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Helpers.swift"; sourceTree = "<group>"; };
+		43AED59024411091007E5D9E /* InvertedTimeMachineCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvertedTimeMachineCarousel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43AED54A24400AA2007E5D9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43AED54424400AA1007E5D9E = {
+			isa = PBXGroup;
+			children = (
+				43AED56E24401B14007E5D9E /* Swipeable-Cards-Bridging-Header.h */,
+				43AED54F24400AA2007E5D9E /* Swipeable-Cards */,
+				43AED54E24400AA2007E5D9E /* Products */,
+				644596FCB928AC3D97386D48 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		43AED54E24400AA2007E5D9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43AED54D24400AA2007E5D9E /* Swipeable-Cards.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43AED54F24400AA2007E5D9E /* Swipeable-Cards */ = {
+			isa = PBXGroup;
+			children = (
+				43AED55024400AA2007E5D9E /* AppDelegate.swift */,
+				43AED55224400AA2007E5D9E /* SceneDelegate.swift */,
+				43AED5742440D565007E5D9E /* Helpers */,
+				43AED59224412836007E5D9E /* Controller */,
+				43AED56F24401C30007E5D9E /* Views */,
+				43AED55624400AA2007E5D9E /* Main.storyboard */,
+				43AED55924400AA4007E5D9E /* Assets.xcassets */,
+				43AED55B24400AA4007E5D9E /* LaunchScreen.storyboard */,
+				43AED55E24400AA4007E5D9E /* Info.plist */,
+			);
+			path = "Swipeable-Cards";
+			sourceTree = "<group>";
+		};
+		43AED56824401A5C007E5D9E /* iCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				43AED56924401A5C007E5D9E /* iCarousel.m */,
+				43AED56A24401A5C007E5D9E /* iCarousel.h */,
+				43AED59024411091007E5D9E /* InvertedTimeMachineCarousel.swift */,
+			);
+			path = iCarousel;
+			sourceTree = "<group>";
+		};
+		43AED56F24401C30007E5D9E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				43AED57024401C3E007E5D9E /* CardView.swift */,
+				43AED57224401CD2007E5D9E /* CardView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		43AED5742440D565007E5D9E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				43AED56824401A5C007E5D9E /* iCarousel */,
+				43AED5752440D57C007E5D9E /* UIView+Helpers.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		43AED59224412836007E5D9E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				43AED55424400AA2007E5D9E /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		644596FCB928AC3D97386D48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43AED54C24400AA2007E5D9E /* Swipeable-Cards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43AED56124400AA4007E5D9E /* Build configuration list for PBXNativeTarget "Swipeable-Cards" */;
+			buildPhases = (
+				43AED54924400AA2007E5D9E /* Sources */,
+				43AED54A24400AA2007E5D9E /* Frameworks */,
+				43AED54B24400AA2007E5D9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swipeable-Cards";
+			productName = "Swipeable-Cards";
+			productReference = 43AED54D24400AA2007E5D9E /* Swipeable-Cards.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43AED54524400AA1007E5D9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Kartik;
+				TargetAttributes = {
+					43AED54C24400AA2007E5D9E = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 43AED54824400AA1007E5D9E /* Build configuration list for PBXProject "Swipeable-Cards" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43AED54424400AA1007E5D9E;
+			productRefGroup = 43AED54E24400AA2007E5D9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43AED54C24400AA2007E5D9E /* Swipeable-Cards */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43AED54B24400AA2007E5D9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43AED55D24400AA4007E5D9E /* LaunchScreen.storyboard in Resources */,
+				43AED55A24400AA4007E5D9E /* Assets.xcassets in Resources */,
+				43AED57324401CD2007E5D9E /* CardView.xib in Resources */,
+				43AED55824400AA2007E5D9E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43AED54924400AA2007E5D9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43AED55524400AA2007E5D9E /* ViewController.swift in Sources */,
+				43AED56C24401A5C007E5D9E /* iCarousel.m in Sources */,
+				43AED59124411091007E5D9E /* InvertedTimeMachineCarousel.swift in Sources */,
+				43AED55124400AA2007E5D9E /* AppDelegate.swift in Sources */,
+				43AED55324400AA2007E5D9E /* SceneDelegate.swift in Sources */,
+				43AED5762440D57C007E5D9E /* UIView+Helpers.swift in Sources */,
+				43AED57124401C3E007E5D9E /* CardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		43AED55624400AA2007E5D9E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43AED55724400AA2007E5D9E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		43AED55B24400AA4007E5D9E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43AED55C24400AA4007E5D9E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43AED55F24400AA4007E5D9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		43AED56024400AA4007E5D9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43AED56224400AA4007E5D9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 453UJE36QS;
+				INFOPLIST_FILE = "Swipeable-Cards/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kartik.Swipeable-Cards";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Swipeable-Cards-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43AED56324400AA4007E5D9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 453UJE36QS;
+				INFOPLIST_FILE = "Swipeable-Cards/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kartik.Swipeable-Cards";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Swipeable-Cards-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43AED54824400AA1007E5D9E /* Build configuration list for PBXProject "Swipeable-Cards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43AED55F24400AA4007E5D9E /* Debug */,
+				43AED56024400AA4007E5D9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43AED56124400AA4007E5D9E /* Build configuration list for PBXNativeTarget "Swipeable-Cards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43AED56224400AA4007E5D9E /* Debug */,
+				43AED56324400AA4007E5D9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43AED54524400AA1007E5D9E /* Project object */;
+}

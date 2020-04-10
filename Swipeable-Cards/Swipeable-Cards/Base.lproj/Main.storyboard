@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Swipeable_Cards" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rly-Zy-4v5">
+                                <rect key="frame" x="319" y="44" width="40" height="30"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                <state key="normal" title="Reset">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="resetButtonTapped" destination="BYZ-38-t0r" eventType="touchUpInside" id="uzo-ao-9G7"/>
+                                </connections>
+                            </button>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progressViewStyle="bar" progress="0.10000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="qs5-aA-s64">
+                                <rect key="frame" x="16" y="104" width="343" height="2.6666666666666714"/>
+                                <color key="progressTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="trackTintColor" red="0.1180108237" green="0.65095248289999996" blue="0.43196053249999999" alpha="0.7246628852739726" colorSpace="custom" customColorSpace="sRGB"/>
+                            </progressView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2b4-yW-LXL" customClass="InvertedTimeMachine" customModule="Swipeable_Cards" customModuleProvider="target">
+                                <rect key="frame" x="20" y="125.66666666666669" width="335" height="450.00000000000006"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="450" id="NRf-hw-fA0"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.11801082373698629" green="0.65095248287671237" blue="0.43196053245753424" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2b4-yW-LXL" secondAttribute="trailing" constant="20" id="Gly-Dh-MFg"/>
+                            <constraint firstItem="2b4-yW-LXL" firstAttribute="top" secondItem="qs5-aA-s64" secondAttribute="bottom" constant="20" id="MiC-R8-lmt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rly-Zy-4v5" secondAttribute="trailing" constant="16" id="N1P-5M-Xiq"/>
+                            <constraint firstItem="qs5-aA-s64" firstAttribute="top" secondItem="rly-Zy-4v5" secondAttribute="bottom" constant="30" id="XOn-vO-nNQ"/>
+                            <constraint firstItem="2b4-yW-LXL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bLH-wF-wDQ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="qs5-aA-s64" secondAttribute="trailing" id="dRD-kW-QJj"/>
+                            <constraint firstItem="2b4-yW-LXL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="iap-v0-C4K"/>
+                            <constraint firstItem="qs5-aA-s64" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="ifW-Nl-BFe"/>
+                            <constraint firstItem="rly-Zy-4v5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="qSm-Mw-yqI"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="icView" destination="2b4-yW-LXL" id="kwb-Xw-Tnx"/>
+                        <outlet property="progressView" destination="qs5-aA-s64" id="2tf-UP-bgT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="137.4384236453202"/>
+        </scene>
+    </scenes>
+</document>
