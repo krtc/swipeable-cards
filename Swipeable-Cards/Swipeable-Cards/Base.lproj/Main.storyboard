@@ -37,18 +37,44 @@
                                     <constraint firstAttribute="height" constant="450" id="NRf-hw-fA0"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kl1-ok-nU2">
+                                <rect key="frame" x="20" y="728" width="61" height="30"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                <state key="normal" title="Previous">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="previousButtonTapped" destination="BYZ-38-t0r" eventType="touchUpInside" id="VzU-QZ-7Ls"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ga4-6H-tw3">
+                                <rect key="frame" x="322" y="728" width="33" height="30"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextButtonTapped" destination="BYZ-38-t0r" eventType="touchUpInside" id="rif-Vg-tju"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.11801082373698629" green="0.65095248287671237" blue="0.43196053245753424" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="Kl1-ok-nU2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="0cR-MD-hGu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ga4-6H-tw3" secondAttribute="trailing" constant="20" id="Fyc-f6-hIq"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2b4-yW-LXL" secondAttribute="trailing" constant="20" id="Gly-Dh-MFg"/>
+                            <constraint firstItem="ga4-6H-tw3" firstAttribute="top" relation="greaterThanOrEqual" secondItem="2b4-yW-LXL" secondAttribute="bottom" constant="8" id="K46-jv-bO9"/>
                             <constraint firstItem="2b4-yW-LXL" firstAttribute="top" secondItem="qs5-aA-s64" secondAttribute="bottom" constant="20" id="MiC-R8-lmt"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rly-Zy-4v5" secondAttribute="trailing" constant="16" id="N1P-5M-Xiq"/>
+                            <constraint firstItem="Kl1-ok-nU2" firstAttribute="top" relation="greaterThanOrEqual" secondItem="2b4-yW-LXL" secondAttribute="bottom" constant="8" id="N6m-qo-8tJ"/>
                             <constraint firstItem="qs5-aA-s64" firstAttribute="top" secondItem="rly-Zy-4v5" secondAttribute="bottom" constant="30" id="XOn-vO-nNQ"/>
                             <constraint firstItem="2b4-yW-LXL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bLH-wF-wDQ"/>
                             <constraint firstAttribute="trailingMargin" secondItem="qs5-aA-s64" secondAttribute="trailing" id="dRD-kW-QJj"/>
                             <constraint firstItem="2b4-yW-LXL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="iap-v0-C4K"/>
                             <constraint firstItem="qs5-aA-s64" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="ifW-Nl-BFe"/>
                             <constraint firstItem="rly-Zy-4v5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="qSm-Mw-yqI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Kl1-ok-nU2" secondAttribute="bottom" constant="20" id="t0m-re-ku0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ga4-6H-tw3" secondAttribute="bottom" constant="20" id="tic-WX-G8d"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

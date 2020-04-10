@@ -63,6 +63,20 @@ class InvertedTimeMachine: iCarousel, iCarouselDelegate, iCarouselDataSource {
         self.scrollToItem(at: 0, animated: true)
     }
     
+    func nextCard() {
+        let nextIndex = self.currentItemIndex + 1
+        if nextIndex < self.visibleCells {
+            self.scrollToItem(at: nextIndex, animated: true)
+        }
+    }
+    
+    func previousCard() {
+        let previousIndex = self.currentItemIndex - 1
+        if previousIndex >= 0 {
+            self.scrollToItem(at: previousIndex, animated: true)
+        }
+    }
+    
     func carouselItemWidth(_ carousel: iCarousel) -> CGFloat {
         return self.frame.width - 20
     }

@@ -24,6 +24,12 @@ class ViewController: UIViewController {
                            CardViewModel(text: "asdfg"),
                            CardViewModel(text: "qwwerty"),
                            CardViewModel(text: "asdfg"),
+                           CardViewModel(text: "qwwerty"),
+                           CardViewModel(text: "asdfg"),
+                           CardViewModel(text: "qwwerty"),
+                           CardViewModel(text: "asdfg"),
+                           CardViewModel(text: "qwwerty"),
+                           CardViewModel(text: "asdfg"),
                            CardViewModel(text: "qwwerty")]
         
         self.icView.configure()
@@ -35,11 +41,19 @@ class ViewController: UIViewController {
     func setupCarousel() {
         self.icView.layer.masksToBounds = false
         self.icView.timeMachineDelegate = self
-        self.icView.visibleCells = 3//self.cardModels.count
+        self.icView.visibleCells = self.cardModels.count
     }
     
     @IBAction func resetButtonTapped() {
         self.icView.resetCards()
+    }
+    
+    @IBAction func nextButtonTapped() {
+        self.icView.nextCard()
+    }
+    
+    @IBAction func previousButtonTapped() {
+        self.icView.previousCard()
     }
 }
 
@@ -64,6 +78,7 @@ extension ViewController: InvertedTimeMachineProtocol {
     func updateProgressView() {
         let totalItemsIndexes = self.cardModels.count
         let progress: Float = (Float(self.icView.currentItemIndex + 1)/Float(totalItemsIndexes))
+        print(progress)
         DispatchQueue.main.async {
             self.progressView.setProgress(progress, animated: true)
         }
