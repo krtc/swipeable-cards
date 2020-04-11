@@ -12,7 +12,7 @@ import FLUtilities
 
 class ViewController: UIViewController {
 
-    @IBOutlet var icView: InvertedTimeMachine!
+    @IBOutlet var icView: InvertedTimeMachineCarousel!
     @IBOutlet var progressView: UIProgressView!
     
     var cardModels = [CardViewModel]()
@@ -32,7 +32,7 @@ class ViewController: UIViewController {
     
     func setupCarousel() {
         self.icView.layer.masksToBounds = false
-        self.icView.timeMachineDelegate = self
+        self.icView.carouselDelegate = self
         self.icView.visibleCells = self.cardModels.count
     }
     
@@ -56,7 +56,7 @@ class ViewController: UIViewController {
     }
 }
 
-extension ViewController: InvertedTimeMachineProtocol {
+extension ViewController: InvertedTimeMachineCarouselProtocol {
 
     func numberOfItems(in carousel: iCarousel) -> Int {
         self.cardModels.count

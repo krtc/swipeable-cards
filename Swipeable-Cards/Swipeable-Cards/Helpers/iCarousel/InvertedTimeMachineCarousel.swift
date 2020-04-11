@@ -8,17 +8,17 @@
 
 import Foundation
 
-protocol InvertedTimeMachineProtocol: class {
+protocol InvertedTimeMachineCarouselProtocol: class {
     func numberOfItems(in carousel: iCarousel) -> Int
     func carousel(_ carousel: iCarousel, viewForItemAt index: Int, reusing view: UIView?) -> UIView
     func updateProgressView()
 }
 
-class InvertedTimeMachine: iCarousel, iCarouselDelegate, iCarouselDataSource {
+class InvertedTimeMachineCarousel: iCarousel, iCarouselDelegate, iCarouselDataSource {
   
     var carouselType: iCarouselType = iCarouselType.invertedTimeMachine
     
-    weak var timeMachineDelegate: InvertedTimeMachineProtocol?
+    weak var carouselDelegate: InvertedTimeMachineCarouselProtocol?
   
     var visibleCells: Int = 0
     
@@ -32,15 +32,15 @@ class InvertedTimeMachine: iCarousel, iCarouselDelegate, iCarouselDataSource {
     }
     
     func numberOfItems(in carousel: iCarousel) -> Int {
-        return self.timeMachineDelegate?.numberOfItems(in: carousel) ?? 0
+        return self.carouselDelegate?.numberOfItems(in: carousel) ?? 0
     }
     
     func carousel(_ carousel: iCarousel, viewForItemAt index: Int, reusing view: UIView?) -> UIView {
-        return self.timeMachineDelegate?.carousel(carousel, viewForItemAt: index, reusing: view) ?? UIView()
+        return self.carouselDelegate?.carousel(carousel, viewForItemAt: index, reusing: view) ?? UIView()
     }
     
     func carouselDidEndScrollingAnimation(_ carousel: iCarousel) {
-        self.timeMachineDelegate?.updateProgressView()
+        self.carouselDelegate?.updateProgressView()
     }
 
     func carousel(_ carousel: iCarousel, valueFor option: iCarouselOption, withDefault value: CGFloat) -> CGFloat {
