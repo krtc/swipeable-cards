@@ -8,6 +8,7 @@
 
 import UIKit
 import Model
+import FLUtilities
 
 class ViewController: UIViewController {
 
@@ -15,28 +16,18 @@ class ViewController: UIViewController {
     @IBOutlet var progressView: UIProgressView!
     
     var cardModels = [CardViewModel]()
+    var infoData: [Info] = [] {
+        didSet {
+            self.prepareModels()
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
-        self.cardModels = [CardViewModel(text: "asdfg"),
-                           CardViewModel(text: "qwwerty"),
-                           CardViewModel(text: "asdfg"),
-                           CardViewModel(text: "qwwerty"),
-                           CardViewModel(text: "asdfg"),
-                           CardViewModel(text: "qwwerty"),
-                           CardViewModel(text: "asdfg"),
-                           CardViewModel(text: "qwwerty"),
-                           CardViewModel(text: "asdfg"),
-                           CardViewModel(text: "qwwerty"),
-                           CardViewModel(text: "asdfg"),
-                           CardViewModel(text: "qwwerty")]
-        
+                
         self.icView.configure()
-        self.setupCarousel()
-        self.icView.reloadData()
-        self.updateProgressView()
+        self.fetchData()
     }
     
     func setupCarousel() {
@@ -55,6 +46,13 @@ class ViewController: UIViewController {
     
     @IBAction func previousButtonTapped() {
         self.icView.previousCard()
+    }
+    
+    func prepareModels() {
+        self.cardModels = self.infoData.map({ CardViewModel(text: $0.text) })
+        self.setupCarousel()
+        self.icView.reloadData()
+        self.updateProgressView()
     }
 }
 
@@ -87,7 +85,15 @@ extension ViewController: InvertedTimeMachineProtocol {
 }
 
 extension ViewController {
-//    func fetchData() {
-//        Info
-//    }
+    func fetchData() {
+        Info.fetchData { [weak self] (result) in
+            switch result {
+            case .success(let data):
+                self?.infoData = data
+            case .failure(let error):
+                // handle error here
+                self?.showErrorAlert(message: error.message)
+            }
+        }
+    }
 }

@@ -17,11 +17,16 @@ public final class Info {
         self.id = id
         self.text = text
     }
-}
-
-extension Info: JSONParseable {
-    public static func parse(_ json: JSON) throws -> Info {
-        return try Info(id: json["id"]^,
-                        text: json["text"]^)
+    
+    public init(json: JSON) {
+        self.id = json["id"].stringValue
+        self.text = json["text"].stringValue
     }
 }
+
+//extension Info: JSONParseable {
+//    public static func parse(_ json: JSON) throws -> Info {
+//        return try Info(id: json["id"]^,
+//                        text: json["text"]^)
+//    }
+//}

@@ -1,7 +1,12 @@
 
 source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '12.0'
-use_frameworks!
+#use_frameworks!
+use_modular_headers!
+
+target 'Swipeable-Cards' do
+  pod "FLUtilities", :git => 'https://github.com/Nickelfox/FLUtilities.git', :branch => 'develop'
+end
 
 target 'Model' do
     pod "FLUtilities", :git => 'https://github.com/Nickelfox/FLUtilities.git', :branch => 'develop'

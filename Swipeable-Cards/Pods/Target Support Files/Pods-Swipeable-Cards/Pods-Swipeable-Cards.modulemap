@@ -1,0 +1,6 @@
+module Pods_Swipeable_Cards {
+  umbrella header "Pods-Swipeable-Cards-umbrella.h"
+
+  export *
+  module * { export * }
+}
