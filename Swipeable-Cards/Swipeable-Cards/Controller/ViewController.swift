@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Model
 
 class ViewController: UIViewController {
 
@@ -83,4 +84,10 @@ extension ViewController: InvertedTimeMachineProtocol {
             self.progressView.setProgress(progress, animated: true)
         }
     }
+}
+
+extension ViewController {
+//    func fetchData() {
+//        Info
+//    }
 }

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,11 @@
 		4318DB082441C18700A4BDE7 /* SwipeableCardsAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4318DB072441C18700A4BDE7 /* SwipeableCardsAPIClient.swift */; };
 		4318DB0A2441C23D00A4BDE7 /* AuthHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4318DB092441C23D00A4BDE7 /* AuthHeaders.swift */; };
 		4318DB0C2441C27800A4BDE7 /* ErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4318DB0B2441C27800A4BDE7 /* ErrorResponse.swift */; };
+		4318DB102441C3EA00A4BDE7 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4318DB0F2441C3EA00A4BDE7 /* Info.swift */; };
+		4318DB132441C4FF00A4BDE7 /* Info+API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4318DB122441C4FF00A4BDE7 /* Info+API.swift */; };
+		4318DB162441C59F00A4BDE7 /* BaseRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4318DB152441C59F00A4BDE7 /* BaseRouter.swift */; };
+		4318DB182441C5D900A4BDE7 /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4318DB172441C5D900A4BDE7 /* APIConfig.swift */; };
+		4318DB1A2441C8C100A4BDE7 /* InfoRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4318DB192441C8C100A4BDE7 /* InfoRouter.swift */; };
 		43AED55124400AA2007E5D9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AED55024400AA2007E5D9E /* AppDelegate.swift */; };
 		43AED55324400AA2007E5D9E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AED55224400AA2007E5D9E /* SceneDelegate.swift */; };
 		43AED55524400AA2007E5D9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AED55424400AA2007E5D9E /* ViewController.swift */; };
@@ -25,7 +30,7 @@
 		43AED57324401CD2007E5D9E /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43AED57224401CD2007E5D9E /* CardView.xib */; };
 		43AED5762440D57C007E5D9E /* UIView+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AED5752440D57C007E5D9E /* UIView+Helpers.swift */; };
 		43AED59124411091007E5D9E /* InvertedTimeMachineCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AED59024411091007E5D9E /* InvertedTimeMachineCarousel.swift */; };
-		D8521BD18BE9856A653D80BA /* libPods-Model.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D61F65E28C5B08A4323CF836 /* libPods-Model.a */; };
+		D8521BD18BE9856A653D80BA /* libPods-Model.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D61F65E28C5B08A4323CF836 /* libPods-Model.a */; platformFilter = ios; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +65,11 @@
 		4318DB072441C18700A4BDE7 /* SwipeableCardsAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeableCardsAPIClient.swift; sourceTree = "<group>"; };
 		4318DB092441C23D00A4BDE7 /* AuthHeaders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthHeaders.swift; sourceTree = "<group>"; };
 		4318DB0B2441C27800A4BDE7 /* ErrorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorResponse.swift; sourceTree = "<group>"; };
+		4318DB0F2441C3EA00A4BDE7 /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		4318DB122441C4FF00A4BDE7 /* Info+API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Info+API.swift"; sourceTree = "<group>"; };
+		4318DB152441C59F00A4BDE7 /* BaseRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRouter.swift; sourceTree = "<group>"; };
+		4318DB172441C5D900A4BDE7 /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		4318DB192441C8C100A4BDE7 /* InfoRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoRouter.swift; sourceTree = "<group>"; };
 		43AED54D24400AA2007E5D9E /* Swipeable-Cards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swipeable-Cards.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		43AED55024400AA2007E5D9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		43AED55224400AA2007E5D9E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,7 +113,9 @@
 		4318DAFA244136BF00A4BDE7 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4318DB0D2441C3C000A4BDE7 /* DataModel */,
 				4318DB062441C16200A4BDE7 /* API */,
+				4318DB142441C59100A4BDE7 /* Router */,
 				4318DAFB244136BF00A4BDE7 /* Model.h */,
 				4318DAFC244136BF00A4BDE7 /* Info.plist */,
 			);
@@ -116,8 +128,43 @@
 				4318DB072441C18700A4BDE7 /* SwipeableCardsAPIClient.swift */,
 				4318DB092441C23D00A4BDE7 /* AuthHeaders.swift */,
 				4318DB0B2441C27800A4BDE7 /* ErrorResponse.swift */,
+				4318DB172441C5D900A4BDE7 /* APIConfig.swift */,
 			);
 			path = API;
+			sourceTree = "<group>";
+		};
+		4318DB0D2441C3C000A4BDE7 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				4318DB112441C4F000A4BDE7 /* API */,
+				4318DB0E2441C3C800A4BDE7 /* Entities */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		4318DB0E2441C3C800A4BDE7 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				4318DB0F2441C3EA00A4BDE7 /* Info.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		4318DB112441C4F000A4BDE7 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				4318DB122441C4FF00A4BDE7 /* Info+API.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		4318DB142441C59100A4BDE7 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				4318DB152441C59F00A4BDE7 /* BaseRouter.swift */,
+				4318DB192441C8C100A4BDE7 /* InfoRouter.swift */,
+			);
+			path = Router;
 			sourceTree = "<group>";
 		};
 		43AED54424400AA1007E5D9E = {
@@ -353,9 +400,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4318DB1A2441C8C100A4BDE7 /* InfoRouter.swift in Sources */,
 				4318DB0C2441C27800A4BDE7 /* ErrorResponse.swift in Sources */,
+				4318DB162441C59F00A4BDE7 /* BaseRouter.swift in Sources */,
+				4318DB102441C3EA00A4BDE7 /* Info.swift in Sources */,
 				4318DB0A2441C23D00A4BDE7 /* AuthHeaders.swift in Sources */,
 				4318DB082441C18700A4BDE7 /* SwipeableCardsAPIClient.swift in Sources */,
+				4318DB132441C4FF00A4BDE7 /* Info+API.swift in Sources */,
+				4318DB182441C5D900A4BDE7 /* APIConfig.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

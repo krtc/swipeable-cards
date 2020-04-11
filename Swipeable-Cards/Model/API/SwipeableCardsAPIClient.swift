@@ -9,6 +9,8 @@
 import Foundation
 import FoxAPIKit
 
+public typealias APICompletion<T> = (APIResult<T>) -> Void
+
 class SwipeableCardAPIClient: APIClient<AuthHeaders, ErrorResponse> {
     
     static let shared = SwipeableCardAPIClient()
