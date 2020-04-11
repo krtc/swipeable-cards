@@ -1,0 +1,52 @@
+PODS:
+  - Alamofire (4.9.1)
+  - AnyErrorKit (0.1.4)
+  - FLUtilities (0.1.0)
+  - FoxAPIKit (0.1.5):
+    - Alamofire (~> 4.7)
+    - AnyErrorKit (~> 0.1.4)
+    - JSONParsing (~> 0.2.0)
+    - SwiftyJSON (~> 4.0)
+  - JSONParsing (0.2.1):
+    - AnyErrorKit (~> 0.1.1)
+    - SwiftyJSON (~> 4.0)
+  - SwiftyJSON (4.3.0)
+
+DEPENDENCIES:
+  - FLUtilities (from `https://github.com/Nickelfox/FLUtilities.git`, branch `develop`)
+  - FoxAPIKit (from `https://github.com/Nickelfox/FoxAPIKit.git`, branch `bug-fixes`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - AnyErrorKit
+    - JSONParsing
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  FLUtilities:
+    :branch: develop
+    :git: https://github.com/Nickelfox/FLUtilities.git
+  FoxAPIKit:
+    :branch: bug-fixes
+    :git: https://github.com/Nickelfox/FoxAPIKit.git
+
+CHECKOUT OPTIONS:
+  FLUtilities:
+    :commit: eef14072880333c5b97e54c672387f4f34bcecc5
+    :git: https://github.com/Nickelfox/FLUtilities.git
+  FoxAPIKit:
+    :commit: 45d8d565f820f5b66c727637743a3d8a6795b65e
+    :git: https://github.com/Nickelfox/FoxAPIKit.git
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AnyErrorKit: 6083091402347e82158c4e6e565680bdd4d1928c
+  FLUtilities: 1b101734a35e894fd019e3fe6b430214c8fa3186
+  FoxAPIKit: 74cbf7fa6f95f960da336334b9d314676898527c
+  JSONParsing: 042f0e156c69002af7092084f3b9822867270b3d
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+
+PODFILE CHECKSUM: 5efebe00ab92e8e09a18694d2406ab5ea75fcb33
+
+COCOAPODS: 1.8.4

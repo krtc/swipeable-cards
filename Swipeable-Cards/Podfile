@@ -1,0 +1,9 @@
+
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '12.0'
+use_frameworks!
+
+target 'Model' do
+    pod "FLUtilities", :git => 'https://github.com/Nickelfox/FLUtilities.git', :branch => 'develop'
+    pod 'FoxAPIKit', :git => 'https://github.com/Nickelfox/FoxAPIKit.git', :branch => 'bug-fixes'
+end
