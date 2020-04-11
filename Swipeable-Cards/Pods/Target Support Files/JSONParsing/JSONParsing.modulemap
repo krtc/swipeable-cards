@@ -1,0 +1,6 @@
+module JSONParsing {
+  umbrella header "JSONParsing-umbrella.h"
+
+  export *
+  module * { export * }
+}

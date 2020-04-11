@@ -1,0 +1,961 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "21A8923D-D0A5-4DE3-A517-BF505E7568B5"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            uuid = "ADFCEE19-8159-440D-B885-ECD19EBD0AE3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            scope = "1"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F222D429-9584-48C2-9531-5375EA8166F1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/FoxAPIKit/Source/Classes/API/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "153"
+            endingLineNumber = "153"
+            landmarkName = "request(_:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F222D429-9584-48C2-9531-5375EA8166F1 - fb8cb89fdef5fef5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FoxAPIKit.APIClient.request&lt;A where A1: JSONParsing.JSONParseable&gt;(_: FoxAPIKit.Router, completion: (FoxAPIKit.APIResult&lt;A1&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Swipeable-Cards"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kartic/Desktop/swipeable-cards/Swipeable-Cards/Pods/FoxAPIKit/Source/Classes/API/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "153"
+                  endingLineNumber = "153"
+                  offsetFromSymbolStart = "71">
+               </Location>
+               <Location
+                  uuid = "F222D429-9584-48C2-9531-5375EA8166F1 - c104f1106cdcd586"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FoxAPIKit.APIClient.request&lt;A where A1: JSONParsing.JSONParseable&gt;(_: FoxAPIKit.Router, completion: (FoxAPIKit.APIResult&lt;A1&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Model"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kartic/Desktop/swipeable-cards/Swipeable-Cards/Pods/FoxAPIKit/Source/Classes/API/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "153"
+                  endingLineNumber = "153"
+                  offsetFromSymbolStart = "71">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F885DACE-4ADA-4A9E-A7D5-4A2ADDD72ED1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/FoxAPIKit/Source/Classes/API/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "160"
+            endingLineNumber = "160"
+            landmarkName = "requestInternal(router:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F885DACE-4ADA-4A9E-A7D5-4A2ADDD72ED1 - 9b7c0e945344e309"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FoxAPIKit.APIClient.(requestInternal in _A44F803555C195B1DDE7594451B62FA9)&lt;A where A1: JSONParsing.JSONParseable&gt;(router: FoxAPIKit.Router, completion: (FoxAPIKit.APIResult&lt;A1&gt;) -&gt; ()) -&gt; Alamofire.Request"
+                  moduleName = "Swipeable-Cards"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kartic/Desktop/swipeable-cards/Swipeable-Cards/Pods/FoxAPIKit/Source/Classes/API/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "160"
+                  endingLineNumber = "160"
+                  offsetFromSymbolStart = "366">
+               </Location>
+               <Location
+                  uuid = "F885DACE-4ADA-4A9E-A7D5-4A2ADDD72ED1 - a1f4471be16dc87a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FoxAPIKit.APIClient.(requestInternal in _A44F803555C195B1DDE7594451B62FA9)&lt;A where A1: JSONParsing.JSONParseable&gt;(router: FoxAPIKit.Router, completion: (FoxAPIKit.APIResult&lt;A1&gt;) -&gt; ()) -&gt; Alamofire.Request"
+                  moduleName = "Model"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kartic/Desktop/swipeable-cards/Swipeable-Cards/Pods/FoxAPIKit/Source/Classes/API/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "160"
+                  endingLineNumber = "160"
+                  offsetFromSymbolStart = "366">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "43C3F2B4-FF29-479E-84D0-995A5DD5CCE2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/FoxAPIKit/Source/Classes/API/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "168"
+            endingLineNumber = "168"
+            landmarkName = "makeRequest(request:router:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "43C3F2B4-FF29-479E-84D0-995A5DD5CCE2 - fb20b7b9b60e6ae3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (FoxAPIKit.APIResult&lt;A1&gt;) -&gt; () in FoxAPIKit.APIClient.(makeRequest in _A44F803555C195B1DDE7594451B62FA9)&lt;A where A1: JSONParsing.JSONParseable&gt;(request: Alamofire.DataRequest, router: FoxAPIKit.Router, completion: (FoxAPIKit.APIResult&lt;A1&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Swipeable-Cards"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kartic/Desktop/swipeable-cards/Swipeable-Cards/Pods/FoxAPIKit/Source/Classes/API/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "168"
+                  endingLineNumber = "168"
+                  offsetFromSymbolStart = "101">
+               </Location>
+               <Location
+                  uuid = "43C3F2B4-FF29-479E-84D0-995A5DD5CCE2 - c1a8fe3604274190"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (FoxAPIKit.APIResult&lt;A1&gt;) -&gt; () in FoxAPIKit.APIClient.(makeRequest in _A44F803555C195B1DDE7594451B62FA9)&lt;A where A1: JSONParsing.JSONParseable&gt;(request: Alamofire.DataRequest, router: FoxAPIKit.Router, completion: (FoxAPIKit.APIResult&lt;A1&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Model"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kartic/Desktop/swipeable-cards/Swipeable-Cards/Pods/FoxAPIKit/Source/Classes/API/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "168"
+                  endingLineNumber = "168"
+                  offsetFromSymbolStart = "101">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5D7437B3-A14B-4D79-B3F9-1E791EF4E296"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/FoxAPIKit/Source/Classes/API/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "191"
+            endingLineNumber = "191"
+            landmarkName = "handleJson(_:code:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "5D7437B3-A14B-4D79-B3F9-1E791EF4E296 - 16a63fb04013d48c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "handleJson #1 &lt;A, B&gt;&lt;A1 where A: FoxAPIKit.AuthHeadersProtocol, B: FoxAPIKit.ErrorResponseProtocol, A1: JSONParsing.JSONParseable&gt;(_: SwiftyJSON.JSON, code: Swift.Int) -&gt; () in closure #2 (Alamofire.DefaultDataResponse) -&gt; () in FoxAPIKit.APIClient.(makeRequest in _A44F803555C195B1DDE7594451B62FA9)&lt;A where A1: JSONParsing.JSONParseable&gt;(request: Alamofire.DataRequest, router: FoxAPIKit.Router, completion: (FoxAPIKit.APIResult&lt;A1&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Swipeable-Cards"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kartic/Desktop/swipeable-cards/Swipeable-Cards/Pods/FoxAPIKit/Source/Classes/API/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "191"
+                  endingLineNumber = "191"
+                  offsetFromSymbolStart = "492">
+               </Location>
+               <Location
+                  uuid = "5D7437B3-A14B-4D79-B3F9-1E791EF4E296 - 2c2e763ff23affff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "handleJson #1 &lt;A, B&gt;&lt;A1 where A: FoxAPIKit.AuthHeadersProtocol, B: FoxAPIKit.ErrorResponseProtocol, A1: JSONParsing.JSONParseable&gt;(_: SwiftyJSON.JSON, code: Swift.Int) -&gt; () in closure #2 (Alamofire.DefaultDataResponse) -&gt; () in FoxAPIKit.APIClient.(makeRequest in _A44F803555C195B1DDE7594451B62FA9)&lt;A where A1: JSONParsing.JSONParseable&gt;(request: Alamofire.DataRequest, router: FoxAPIKit.Router, completion: (FoxAPIKit.APIResult&lt;A1&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Model"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kartic/Desktop/swipeable-cards/Swipeable-Cards/Pods/FoxAPIKit/Source/Classes/API/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "191"
+                  endingLineNumber = "191"
+                  offsetFromSymbolStart = "492">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9B09084A-E919-45C5-BAFC-A85B8EFB2B8B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/FoxAPIKit/Source/Classes/API/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "193"
+            endingLineNumber = "193"
+            landmarkName = "handleJson(_:code:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "9B09084A-E919-45C5-BAFC-A85B8EFB2B8B - 16a63fb04013d48c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "handleJson #1 &lt;A, B&gt;&lt;A1 where A: FoxAPIKit.AuthHeadersProtocol, B: FoxAPIKit.ErrorResponseProtocol, A1: JSONParsing.JSONParseable&gt;(_: SwiftyJSON.JSON, code: Swift.Int) -&gt; () in closure #2 (Alamofire.DefaultDataResponse) -&gt; () in FoxAPIKit.APIClient.(makeRequest in _A44F803555C195B1DDE7594451B62FA9)&lt;A where A1: JSONParsing.JSONParseable&gt;(request: Alamofire.DataRequest, router: FoxAPIKit.Router, completion: (FoxAPIKit.APIResult&lt;A1&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Swipeable-Cards"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kartic/Desktop/swipeable-cards/Swipeable-Cards/Pods/FoxAPIKit/Source/Classes/API/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "193"
+                  endingLineNumber = "193"
+                  offsetFromSymbolStart = "585">
+               </Location>
+               <Location
+                  uuid = "9B09084A-E919-45C5-BAFC-A85B8EFB2B8B - 2c2e763ff23affff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "handleJson #1 &lt;A, B&gt;&lt;A1 where A: FoxAPIKit.AuthHeadersProtocol, B: FoxAPIKit.ErrorResponseProtocol, A1: JSONParsing.JSONParseable&gt;(_: SwiftyJSON.JSON, code: Swift.Int) -&gt; () in closure #2 (Alamofire.DefaultDataResponse) -&gt; () in FoxAPIKit.APIClient.(makeRequest in _A44F803555C195B1DDE7594451B62FA9)&lt;A where A1: JSONParsing.JSONParseable&gt;(request: Alamofire.DataRequest, router: FoxAPIKit.Router, completion: (FoxAPIKit.APIResult&lt;A1&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Model"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kartic/Desktop/swipeable-cards/Swipeable-Cards/Pods/FoxAPIKit/Source/Classes/API/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "193"
+                  endingLineNumber = "193"
+                  offsetFromSymbolStart = "585">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1BDB9A21-ED4A-4A75-9E9E-0B8093D598C7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/FoxAPIKit/Source/Classes/API/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "197"
+            endingLineNumber = "197"
+            landmarkName = "handleJson(_:code:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "1BDB9A21-ED4A-4A75-9E9E-0B8093D598C7 - 16a63fb04013d48c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "handleJson #1 &lt;A, B&gt;&lt;A1 where A: FoxAPIKit.AuthHeadersProtocol, B: FoxAPIKit.ErrorResponseProtocol, A1: JSONParsing.JSONParseable&gt;(_: SwiftyJSON.JSON, code: Swift.Int) -&gt; () in closure #2 (Alamofire.DefaultDataResponse) -&gt; () in FoxAPIKit.APIClient.(makeRequest in _A44F803555C195B1DDE7594451B62FA9)&lt;A where A1: JSONParsing.JSONParseable&gt;(request: Alamofire.DataRequest, router: FoxAPIKit.Router, completion: (FoxAPIKit.APIResult&lt;A1&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Swipeable-Cards"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kartic/Desktop/swipeable-cards/Swipeable-Cards/Pods/FoxAPIKit/Source/Classes/API/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "197"
+                  endingLineNumber = "197"
+                  offsetFromSymbolStart = "731">
+               </Location>
+               <Location
+                  uuid = "1BDB9A21-ED4A-4A75-9E9E-0B8093D598C7 - 2c2e763ff23affff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "handleJson #1 &lt;A, B&gt;&lt;A1 where A: FoxAPIKit.AuthHeadersProtocol, B: FoxAPIKit.ErrorResponseProtocol, A1: JSONParsing.JSONParseable&gt;(_: SwiftyJSON.JSON, code: Swift.Int) -&gt; () in closure #2 (Alamofire.DefaultDataResponse) -&gt; () in FoxAPIKit.APIClient.(makeRequest in _A44F803555C195B1DDE7594451B62FA9)&lt;A where A1: JSONParsing.JSONParseable&gt;(request: Alamofire.DataRequest, router: FoxAPIKit.Router, completion: (FoxAPIKit.APIResult&lt;A1&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Model"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kartic/Desktop/swipeable-cards/Swipeable-Cards/Pods/FoxAPIKit/Source/Classes/API/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "197"
+                  endingLineNumber = "197"
+                  offsetFromSymbolStart = "731">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "38EDD231-3C15-4741-B82F-3A17E5E68D35"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/FoxAPIKit/Source/Classes/API/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "199"
+            endingLineNumber = "199"
+            landmarkName = "handleJson(_:code:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "38EDD231-3C15-4741-B82F-3A17E5E68D35 - 16a63fb04013d48c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "handleJson #1 &lt;A, B&gt;&lt;A1 where A: FoxAPIKit.AuthHeadersProtocol, B: FoxAPIKit.ErrorResponseProtocol, A1: JSONParsing.JSONParseable&gt;(_: SwiftyJSON.JSON, code: Swift.Int) -&gt; () in closure #2 (Alamofire.DefaultDataResponse) -&gt; () in FoxAPIKit.APIClient.(makeRequest in _A44F803555C195B1DDE7594451B62FA9)&lt;A where A1: JSONParsing.JSONParseable&gt;(request: Alamofire.DataRequest, router: FoxAPIKit.Router, completion: (FoxAPIKit.APIResult&lt;A1&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Swipeable-Cards"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kartic/Desktop/swipeable-cards/Swipeable-Cards/Pods/FoxAPIKit/Source/Classes/API/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "199"
+                  endingLineNumber = "199"
+                  offsetFromSymbolStart = "1181">
+               </Location>
+               <Location
+                  uuid = "38EDD231-3C15-4741-B82F-3A17E5E68D35 - 2c2e763ff23affff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "handleJson #1 &lt;A, B&gt;&lt;A1 where A: FoxAPIKit.AuthHeadersProtocol, B: FoxAPIKit.ErrorResponseProtocol, A1: JSONParsing.JSONParseable&gt;(_: SwiftyJSON.JSON, code: Swift.Int) -&gt; () in closure #2 (Alamofire.DefaultDataResponse) -&gt; () in FoxAPIKit.APIClient.(makeRequest in _A44F803555C195B1DDE7594451B62FA9)&lt;A where A1: JSONParsing.JSONParseable&gt;(request: Alamofire.DataRequest, router: FoxAPIKit.Router, completion: (FoxAPIKit.APIResult&lt;A1&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Model"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kartic/Desktop/swipeable-cards/Swipeable-Cards/Pods/FoxAPIKit/Source/Classes/API/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "199"
+                  endingLineNumber = "199"
+                  offsetFromSymbolStart = "1181">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "50CA5309-A844-4A36-9467-7F9CB58D5F99"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/FoxAPIKit/Source/Classes/API/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "201"
+            endingLineNumber = "201"
+            landmarkName = "handleJson(_:code:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "50CA5309-A844-4A36-9467-7F9CB58D5F99 - 16a63fb04013d48c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "handleJson #1 &lt;A, B&gt;&lt;A1 where A: FoxAPIKit.AuthHeadersProtocol, B: FoxAPIKit.ErrorResponseProtocol, A1: JSONParsing.JSONParseable&gt;(_: SwiftyJSON.JSON, code: Swift.Int) -&gt; () in closure #2 (Alamofire.DefaultDataResponse) -&gt; () in FoxAPIKit.APIClient.(makeRequest in _A44F803555C195B1DDE7594451B62FA9)&lt;A where A1: JSONParsing.JSONParseable&gt;(request: Alamofire.DataRequest, router: FoxAPIKit.Router, completion: (FoxAPIKit.APIResult&lt;A1&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Swipeable-Cards"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kartic/Desktop/swipeable-cards/Swipeable-Cards/Pods/FoxAPIKit/Source/Classes/API/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "201"
+                  endingLineNumber = "201"
+                  offsetFromSymbolStart = "1447">
+               </Location>
+               <Location
+                  uuid = "50CA5309-A844-4A36-9467-7F9CB58D5F99 - 2c2e763ff23affff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "handleJson #1 &lt;A, B&gt;&lt;A1 where A: FoxAPIKit.AuthHeadersProtocol, B: FoxAPIKit.ErrorResponseProtocol, A1: JSONParsing.JSONParseable&gt;(_: SwiftyJSON.JSON, code: Swift.Int) -&gt; () in closure #2 (Alamofire.DefaultDataResponse) -&gt; () in FoxAPIKit.APIClient.(makeRequest in _A44F803555C195B1DDE7594451B62FA9)&lt;A where A1: JSONParsing.JSONParseable&gt;(request: Alamofire.DataRequest, router: FoxAPIKit.Router, completion: (FoxAPIKit.APIResult&lt;A1&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Model"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kartic/Desktop/swipeable-cards/Swipeable-Cards/Pods/FoxAPIKit/Source/Classes/API/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "201"
+                  endingLineNumber = "201"
+                  offsetFromSymbolStart = "1447">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B2EDAA4D-033A-4AB2-8AC3-D69C3D49184B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/FoxAPIKit/Source/Classes/API/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "206"
+            endingLineNumber = "206"
+            landmarkName = "makeRequest(request:router:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B2EDAA4D-033A-4AB2-8AC3-D69C3D49184B - 699f17425cb1a8b1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Alamofire.DefaultDataResponse) -&gt; () in FoxAPIKit.APIClient.(makeRequest in _A44F803555C195B1DDE7594451B62FA9)&lt;A where A1: JSONParsing.JSONParseable&gt;(request: Alamofire.DataRequest, router: FoxAPIKit.Router, completion: (FoxAPIKit.APIResult&lt;A1&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Swipeable-Cards"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kartic/Desktop/swipeable-cards/Swipeable-Cards/Pods/FoxAPIKit/Source/Classes/API/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "206"
+                  endingLineNumber = "206"
+                  offsetFromSymbolStart = "1085">
+               </Location>
+               <Location
+                  uuid = "B2EDAA4D-033A-4AB2-8AC3-D69C3D49184B - 53175ecdee9883c2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Alamofire.DefaultDataResponse) -&gt; () in FoxAPIKit.APIClient.(makeRequest in _A44F803555C195B1DDE7594451B62FA9)&lt;A where A1: JSONParsing.JSONParseable&gt;(request: Alamofire.DataRequest, router: FoxAPIKit.Router, completion: (FoxAPIKit.APIResult&lt;A1&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Model"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kartic/Desktop/swipeable-cards/Swipeable-Cards/Pods/FoxAPIKit/Source/Classes/API/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "206"
+                  endingLineNumber = "206"
+                  offsetFromSymbolStart = "1085">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "630B4F2E-BB2B-4C2E-80DA-2EF56668DAD4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/FoxAPIKit/Source/Classes/API/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "209"
+            endingLineNumber = "209"
+            landmarkName = "makeRequest(request:router:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "630B4F2E-BB2B-4C2E-80DA-2EF56668DAD4 - 699f17425cb1a8b1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Alamofire.DefaultDataResponse) -&gt; () in FoxAPIKit.APIClient.(makeRequest in _A44F803555C195B1DDE7594451B62FA9)&lt;A where A1: JSONParsing.JSONParseable&gt;(request: Alamofire.DataRequest, router: FoxAPIKit.Router, completion: (FoxAPIKit.APIResult&lt;A1&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Swipeable-Cards"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kartic/Desktop/swipeable-cards/Swipeable-Cards/Pods/FoxAPIKit/Source/Classes/API/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "209"
+                  endingLineNumber = "209"
+                  offsetFromSymbolStart = "1315">
+               </Location>
+               <Location
+                  uuid = "630B4F2E-BB2B-4C2E-80DA-2EF56668DAD4 - 53175ecdee9883c2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Alamofire.DefaultDataResponse) -&gt; () in FoxAPIKit.APIClient.(makeRequest in _A44F803555C195B1DDE7594451B62FA9)&lt;A where A1: JSONParsing.JSONParseable&gt;(request: Alamofire.DataRequest, router: FoxAPIKit.Router, completion: (FoxAPIKit.APIResult&lt;A1&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Model"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kartic/Desktop/swipeable-cards/Swipeable-Cards/Pods/FoxAPIKit/Source/Classes/API/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "209"
+                  endingLineNumber = "209"
+                  offsetFromSymbolStart = "1315">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9FB0D097-8490-4DAB-83D9-A0EB032C2349"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/FoxAPIKit/Source/Classes/API/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "211"
+            endingLineNumber = "211"
+            landmarkName = "makeRequest(request:router:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9FB0D097-8490-4DAB-83D9-A0EB032C2349 - 699f17425cb1a8b1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Alamofire.DefaultDataResponse) -&gt; () in FoxAPIKit.APIClient.(makeRequest in _A44F803555C195B1DDE7594451B62FA9)&lt;A where A1: JSONParsing.JSONParseable&gt;(request: Alamofire.DataRequest, router: FoxAPIKit.Router, completion: (FoxAPIKit.APIResult&lt;A1&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Swipeable-Cards"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kartic/Desktop/swipeable-cards/Swipeable-Cards/Pods/FoxAPIKit/Source/Classes/API/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "211"
+                  endingLineNumber = "211"
+                  offsetFromSymbolStart = "2454">
+               </Location>
+               <Location
+                  uuid = "9FB0D097-8490-4DAB-83D9-A0EB032C2349 - 53175ecdee9883c2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Alamofire.DefaultDataResponse) -&gt; () in FoxAPIKit.APIClient.(makeRequest in _A44F803555C195B1DDE7594451B62FA9)&lt;A where A1: JSONParsing.JSONParseable&gt;(request: Alamofire.DataRequest, router: FoxAPIKit.Router, completion: (FoxAPIKit.APIResult&lt;A1&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Model"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kartic/Desktop/swipeable-cards/Swipeable-Cards/Pods/FoxAPIKit/Source/Classes/API/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "211"
+                  endingLineNumber = "211"
+                  offsetFromSymbolStart = "2454">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "123A9C85-307D-46AA-8919-76CC8CF82FE7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/FoxAPIKit/Source/Classes/API/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "215"
+            endingLineNumber = "215"
+            landmarkName = "makeRequest(request:router:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "123A9C85-307D-46AA-8919-76CC8CF82FE7 - 699f17425cb1a8b1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Alamofire.DefaultDataResponse) -&gt; () in FoxAPIKit.APIClient.(makeRequest in _A44F803555C195B1DDE7594451B62FA9)&lt;A where A1: JSONParsing.JSONParseable&gt;(request: Alamofire.DataRequest, router: FoxAPIKit.Router, completion: (FoxAPIKit.APIResult&lt;A1&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Swipeable-Cards"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kartic/Desktop/swipeable-cards/Swipeable-Cards/Pods/FoxAPIKit/Source/Classes/API/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "215"
+                  endingLineNumber = "215"
+                  offsetFromSymbolStart = "1819">
+               </Location>
+               <Location
+                  uuid = "123A9C85-307D-46AA-8919-76CC8CF82FE7 - 53175ecdee9883c2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Alamofire.DefaultDataResponse) -&gt; () in FoxAPIKit.APIClient.(makeRequest in _A44F803555C195B1DDE7594451B62FA9)&lt;A where A1: JSONParsing.JSONParseable&gt;(request: Alamofire.DataRequest, router: FoxAPIKit.Router, completion: (FoxAPIKit.APIResult&lt;A1&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Model"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kartic/Desktop/swipeable-cards/Swipeable-Cards/Pods/FoxAPIKit/Source/Classes/API/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "215"
+                  endingLineNumber = "215"
+                  offsetFromSymbolStart = "1819">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "67CB14EC-30B7-4E99-A48D-28F523733006"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/FoxAPIKit/Source/Classes/API/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "217"
+            endingLineNumber = "217"
+            landmarkName = "makeRequest(request:router:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "67CB14EC-30B7-4E99-A48D-28F523733006 - 699f17425cb1a8b1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Alamofire.DefaultDataResponse) -&gt; () in FoxAPIKit.APIClient.(makeRequest in _A44F803555C195B1DDE7594451B62FA9)&lt;A where A1: JSONParsing.JSONParseable&gt;(request: Alamofire.DataRequest, router: FoxAPIKit.Router, completion: (FoxAPIKit.APIResult&lt;A1&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Swipeable-Cards"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kartic/Desktop/swipeable-cards/Swipeable-Cards/Pods/FoxAPIKit/Source/Classes/API/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "217"
+                  endingLineNumber = "217"
+                  offsetFromSymbolStart = "2054">
+               </Location>
+               <Location
+                  uuid = "67CB14EC-30B7-4E99-A48D-28F523733006 - 53175ecdee9883c2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Alamofire.DefaultDataResponse) -&gt; () in FoxAPIKit.APIClient.(makeRequest in _A44F803555C195B1DDE7594451B62FA9)&lt;A where A1: JSONParsing.JSONParseable&gt;(request: Alamofire.DataRequest, router: FoxAPIKit.Router, completion: (FoxAPIKit.APIResult&lt;A1&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Model"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kartic/Desktop/swipeable-cards/Swipeable-Cards/Pods/FoxAPIKit/Source/Classes/API/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "217"
+                  endingLineNumber = "217"
+                  offsetFromSymbolStart = "2054">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4F25DA68-E5F3-4D87-A1AD-D0E528CBED4F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/FoxAPIKit/Source/Classes/API/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "208"
+            endingLineNumber = "208"
+            landmarkName = "makeRequest(request:router:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4F25DA68-E5F3-4D87-A1AD-D0E528CBED4F - 699f17425cb1a8b1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Alamofire.DefaultDataResponse) -&gt; () in FoxAPIKit.APIClient.(makeRequest in _A44F803555C195B1DDE7594451B62FA9)&lt;A where A1: JSONParsing.JSONParseable&gt;(request: Alamofire.DataRequest, router: FoxAPIKit.Router, completion: (FoxAPIKit.APIResult&lt;A1&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Swipeable-Cards"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kartic/Desktop/swipeable-cards/Swipeable-Cards/Pods/FoxAPIKit/Source/Classes/API/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "209"
+                  endingLineNumber = "209"
+                  offsetFromSymbolStart = "1315">
+               </Location>
+               <Location
+                  uuid = "4F25DA68-E5F3-4D87-A1AD-D0E528CBED4F - 53175ecdee9883c2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Alamofire.DefaultDataResponse) -&gt; () in FoxAPIKit.APIClient.(makeRequest in _A44F803555C195B1DDE7594451B62FA9)&lt;A where A1: JSONParsing.JSONParseable&gt;(request: Alamofire.DataRequest, router: FoxAPIKit.Router, completion: (FoxAPIKit.APIResult&lt;A1&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Model"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kartic/Desktop/swipeable-cards/Swipeable-Cards/Pods/FoxAPIKit/Source/Classes/API/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "209"
+                  endingLineNumber = "209"
+                  offsetFromSymbolStart = "1315">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CBD1FF19-6DA1-4F5A-B0C3-CF29BAEED79A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/FoxAPIKit/Source/Classes/API/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "196"
+            endingLineNumber = "196"
+            landmarkName = "handleJson(_:code:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "CBD1FF19-6DA1-4F5A-B0C3-CF29BAEED79A - 16a63fb04013d48c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "handleJson #1 &lt;A, B&gt;&lt;A1 where A: FoxAPIKit.AuthHeadersProtocol, B: FoxAPIKit.ErrorResponseProtocol, A1: JSONParsing.JSONParseable&gt;(_: SwiftyJSON.JSON, code: Swift.Int) -&gt; () in closure #2 (Alamofire.DefaultDataResponse) -&gt; () in FoxAPIKit.APIClient.(makeRequest in _A44F803555C195B1DDE7594451B62FA9)&lt;A where A1: JSONParsing.JSONParseable&gt;(request: Alamofire.DataRequest, router: FoxAPIKit.Router, completion: (FoxAPIKit.APIResult&lt;A1&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Swipeable-Cards"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kartic/Desktop/swipeable-cards/Swipeable-Cards/Pods/FoxAPIKit/Source/Classes/API/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "196"
+                  endingLineNumber = "196"
+                  offsetFromSymbolStart = "640">
+               </Location>
+               <Location
+                  uuid = "CBD1FF19-6DA1-4F5A-B0C3-CF29BAEED79A - 2c2e763ff23affff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "handleJson #1 &lt;A, B&gt;&lt;A1 where A: FoxAPIKit.AuthHeadersProtocol, B: FoxAPIKit.ErrorResponseProtocol, A1: JSONParsing.JSONParseable&gt;(_: SwiftyJSON.JSON, code: Swift.Int) -&gt; () in closure #2 (Alamofire.DefaultDataResponse) -&gt; () in FoxAPIKit.APIClient.(makeRequest in _A44F803555C195B1DDE7594451B62FA9)&lt;A where A1: JSONParsing.JSONParseable&gt;(request: Alamofire.DataRequest, router: FoxAPIKit.Router, completion: (FoxAPIKit.APIResult&lt;A1&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Model"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kartic/Desktop/swipeable-cards/Swipeable-Cards/Pods/FoxAPIKit/Source/Classes/API/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "196"
+                  endingLineNumber = "196"
+                  offsetFromSymbolStart = "640">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D5E01394-1B6C-47D9-BFCD-A8657135E8C6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/FoxAPIKit/Source/Classes/API/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "272"
+            endingLineNumber = "272"
+            landmarkName = "parse(_:router:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D5E01394-1B6C-47D9-BFCD-A8657135E8C6 - a6415d9e2f967b03"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FoxAPIKit.APIClient.(parse in _A44F803555C195B1DDE7594451B62FA9)&lt;A where A1: JSONParsing.JSONParseable&gt;(_: SwiftyJSON.JSON, router: FoxAPIKit.Router, _: Swift.Int) throws -&gt; A1"
+                  moduleName = "Swipeable-Cards"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kartic/Desktop/swipeable-cards/Swipeable-Cards/Pods/FoxAPIKit/Source/Classes/API/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "272"
+                  endingLineNumber = "272"
+                  offsetFromSymbolStart = "682">
+               </Location>
+               <Location
+                  uuid = "D5E01394-1B6C-47D9-BFCD-A8657135E8C6 - 9cc914119dbf5070"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FoxAPIKit.APIClient.(parse in _A44F803555C195B1DDE7594451B62FA9)&lt;A where A1: JSONParsing.JSONParseable&gt;(_: SwiftyJSON.JSON, router: FoxAPIKit.Router, _: Swift.Int) throws -&gt; A1"
+                  moduleName = "Model"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kartic/Desktop/swipeable-cards/Swipeable-Cards/Pods/FoxAPIKit/Source/Classes/API/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "272"
+                  endingLineNumber = "272"
+                  offsetFromSymbolStart = "682">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "08B22878-C345-47CA-A252-C59982F08D79"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/FoxAPIKit/Source/Classes/API/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "276"
+            endingLineNumber = "276"
+            landmarkName = "parse(_:router:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "08B22878-C345-47CA-A252-C59982F08D79 - a6415d9e2f967b03"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FoxAPIKit.APIClient.(parse in _A44F803555C195B1DDE7594451B62FA9)&lt;A where A1: JSONParsing.JSONParseable&gt;(_: SwiftyJSON.JSON, router: FoxAPIKit.Router, _: Swift.Int) throws -&gt; A1"
+                  moduleName = "Swipeable-Cards"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kartic/Desktop/swipeable-cards/Swipeable-Cards/Pods/FoxAPIKit/Source/Classes/API/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "276"
+                  endingLineNumber = "276"
+                  offsetFromSymbolStart = "1266">
+               </Location>
+               <Location
+                  uuid = "08B22878-C345-47CA-A252-C59982F08D79 - 9cc914119dbf5070"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FoxAPIKit.APIClient.(parse in _A44F803555C195B1DDE7594451B62FA9)&lt;A where A1: JSONParsing.JSONParseable&gt;(_: SwiftyJSON.JSON, router: FoxAPIKit.Router, _: Swift.Int) throws -&gt; A1"
+                  moduleName = "Model"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kartic/Desktop/swipeable-cards/Swipeable-Cards/Pods/FoxAPIKit/Source/Classes/API/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "276"
+                  endingLineNumber = "276"
+                  offsetFromSymbolStart = "1266">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A6E821C2-A578-4853-9F08-8098350B7520"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/FoxAPIKit/Source/Classes/API/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "277"
+            endingLineNumber = "277"
+            landmarkName = "parse(_:router:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A6E821C2-A578-4853-9F08-8098350B7520 - a6415d9e2f967b03"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FoxAPIKit.APIClient.(parse in _A44F803555C195B1DDE7594451B62FA9)&lt;A where A1: JSONParsing.JSONParseable&gt;(_: SwiftyJSON.JSON, router: FoxAPIKit.Router, _: Swift.Int) throws -&gt; A1"
+                  moduleName = "Swipeable-Cards"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kartic/Desktop/swipeable-cards/Swipeable-Cards/Pods/FoxAPIKit/Source/Classes/API/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "277"
+                  endingLineNumber = "277"
+                  offsetFromSymbolStart = "1585">
+               </Location>
+               <Location
+                  uuid = "A6E821C2-A578-4853-9F08-8098350B7520 - 9cc914119dbf5070"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FoxAPIKit.APIClient.(parse in _A44F803555C195B1DDE7594451B62FA9)&lt;A where A1: JSONParsing.JSONParseable&gt;(_: SwiftyJSON.JSON, router: FoxAPIKit.Router, _: Swift.Int) throws -&gt; A1"
+                  moduleName = "Model"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kartic/Desktop/swipeable-cards/Swipeable-Cards/Pods/FoxAPIKit/Source/Classes/API/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "277"
+                  endingLineNumber = "277"
+                  offsetFromSymbolStart = "1585">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "881278FD-2BD8-4BAF-A2A2-3E92556BE047"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/FoxAPIKit/Source/Classes/API/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "279"
+            endingLineNumber = "279"
+            landmarkName = "parse(_:router:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "881278FD-2BD8-4BAF-A2A2-3E92556BE047 - a6415d9e2f967b03"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FoxAPIKit.APIClient.(parse in _A44F803555C195B1DDE7594451B62FA9)&lt;A where A1: JSONParsing.JSONParseable&gt;(_: SwiftyJSON.JSON, router: FoxAPIKit.Router, _: Swift.Int) throws -&gt; A1"
+                  moduleName = "Swipeable-Cards"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kartic/Desktop/swipeable-cards/Swipeable-Cards/Pods/FoxAPIKit/Source/Classes/API/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "279"
+                  endingLineNumber = "279"
+                  offsetFromSymbolStart = "1686">
+               </Location>
+               <Location
+                  uuid = "881278FD-2BD8-4BAF-A2A2-3E92556BE047 - a6415d9e2f967b03"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FoxAPIKit.APIClient.(parse in _A44F803555C195B1DDE7594451B62FA9)&lt;A where A1: JSONParsing.JSONParseable&gt;(_: SwiftyJSON.JSON, router: FoxAPIKit.Router, _: Swift.Int) throws -&gt; A1"
+                  moduleName = "Swipeable-Cards"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kartic/Desktop/swipeable-cards/Swipeable-Cards/Pods/FoxAPIKit/Source/Classes/API/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "279"
+                  endingLineNumber = "279"
+                  offsetFromSymbolStart = "1913">
+               </Location>
+               <Location
+                  uuid = "881278FD-2BD8-4BAF-A2A2-3E92556BE047 - 9cc914119dbf5070"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FoxAPIKit.APIClient.(parse in _A44F803555C195B1DDE7594451B62FA9)&lt;A where A1: JSONParsing.JSONParseable&gt;(_: SwiftyJSON.JSON, router: FoxAPIKit.Router, _: Swift.Int) throws -&gt; A1"
+                  moduleName = "Model"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kartic/Desktop/swipeable-cards/Swipeable-Cards/Pods/FoxAPIKit/Source/Classes/API/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "279"
+                  endingLineNumber = "279"
+                  offsetFromSymbolStart = "1686">
+               </Location>
+               <Location
+                  uuid = "881278FD-2BD8-4BAF-A2A2-3E92556BE047 - 9cc914119dbf5070"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FoxAPIKit.APIClient.(parse in _A44F803555C195B1DDE7594451B62FA9)&lt;A where A1: JSONParsing.JSONParseable&gt;(_: SwiftyJSON.JSON, router: FoxAPIKit.Router, _: Swift.Int) throws -&gt; A1"
+                  moduleName = "Model"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kartic/Desktop/swipeable-cards/Swipeable-Cards/Pods/FoxAPIKit/Source/Classes/API/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "279"
+                  endingLineNumber = "279"
+                  offsetFromSymbolStart = "1913">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

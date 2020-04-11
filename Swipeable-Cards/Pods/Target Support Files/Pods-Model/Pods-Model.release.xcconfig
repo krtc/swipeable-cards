@@ -1,0 +1,11 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Alamofire" "${PODS_CONFIGURATION_BUILD_DIR}/AnyErrorKit" "${PODS_CONFIGURATION_BUILD_DIR}/FLUtilities" "${PODS_CONFIGURATION_BUILD_DIR}/FoxAPIKit" "${PODS_CONFIGURATION_BUILD_DIR}/JSONParsing" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftyJSON"
+OTHER_CFLAGS = $(inherited) -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/Alamofire/Alamofire.modulemap" -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/AnyErrorKit/AnyErrorKit.modulemap" -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/FLUtilities/FLUtilities.modulemap" -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/FoxAPIKit/FoxAPIKit.modulemap" -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/JSONParsing/JSONParsing.modulemap" -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/SwiftyJSON/SwiftyJSON.modulemap"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"Alamofire" -l"AnyErrorKit" -l"FLUtilities" -l"FoxAPIKit" -l"JSONParsing" -l"SwiftyJSON"
+OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS -Xcc -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/Alamofire/Alamofire.modulemap" -Xcc -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/AnyErrorKit/AnyErrorKit.modulemap" -Xcc -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/FLUtilities/FLUtilities.modulemap" -Xcc -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/FoxAPIKit/FoxAPIKit.modulemap" -Xcc -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/JSONParsing/JSONParsing.modulemap" -Xcc -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/SwiftyJSON/SwiftyJSON.modulemap"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+SWIFT_INCLUDE_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Alamofire" "${PODS_CONFIGURATION_BUILD_DIR}/AnyErrorKit" "${PODS_CONFIGURATION_BUILD_DIR}/FLUtilities" "${PODS_CONFIGURATION_BUILD_DIR}/FoxAPIKit" "${PODS_CONFIGURATION_BUILD_DIR}/JSONParsing" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftyJSON"
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES
